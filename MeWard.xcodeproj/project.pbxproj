@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		8B1AAF4E20943962004AEC49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AAF4D20943962004AEC49 /* AppDelegate.swift */; };
-		8B1AAF5020943962004AEC49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AAF4F20943962004AEC49 /* ViewController.swift */; };
 		8B1AAF5320943962004AEC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AAF5120943962004AEC49 /* Main.storyboard */; };
 		8B1AAF5520943965004AEC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AAF5420943965004AEC49 /* Assets.xcassets */; };
 		8B1AAF5820943965004AEC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1AAF5620943965004AEC49 /* LaunchScreen.storyboard */; };
+		8B1AAF6020950805004AEC49 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AAF5F20950805004AEC49 /* RoundButton.swift */; };
+		8B1AAF6220950AFA004AEC49 /* TaskListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1AAF6120950AFA004AEC49 /* TaskListVC.swift */; };
+		8B2ED9D1209697980064FFCE /* WishlistItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ED9D0209697980064FFCE /* WishlistItemCell.swift */; };
+		8B2ED9DB2096D14A0064FFCE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B2ED9DA2096D14A0064FFCE /* GoogleService-Info.plist */; };
+		8B2ED9DD209756390064FFCE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ED9DC209756390064FFCE /* Constants.swift */; };
+		8B2ED9DF209781180064FFCE /* ItemDetailQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ED9DE209781180064FFCE /* ItemDetailQuery.swift */; };
+		8B2ED9E32097837B0064FFCE /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2ED9E22097837B0064FFCE /* ItemDetail.swift */; };
+		8B33D43D209533210074E0CF /* TaskDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33D43C209533210074E0CF /* TaskDetailVC.swift */; };
+		8B33D43F209545B70074E0CF /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33D43E209545B70074E0CF /* ItemListVC.swift */; };
+		8B33D44120955CD70074E0CF /* UserSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33D44020955CD70074E0CF /* UserSettingsVC.swift */; };
+		8B33D4432095670D0074E0CF /* ItemListDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B33D4422095670C0074E0CF /* ItemListDetailVC.swift */; };
+		E3E3994AF687466F3E4B1D90 /* Pods_MeWard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC03FA7F2050DE22A606492E /* Pods_MeWard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8B1AAF4A20943962004AEC49 /* MeWard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeWard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1AAF4D20943962004AEC49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B1AAF4F20943962004AEC49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B1AAF5220943962004AEC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B1AAF5420943965004AEC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1AAF5720943965004AEC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1AAF5920943965004AEC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1AAF5F20950805004AEC49 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		8B1AAF6120950AFA004AEC49 /* TaskListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListVC.swift; sourceTree = "<group>"; };
+		8B2ED9D0209697980064FFCE /* WishlistItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistItemCell.swift; sourceTree = "<group>"; };
+		8B2ED9DA2096D14A0064FFCE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B2ED9DC209756390064FFCE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B2ED9DE209781180064FFCE /* ItemDetailQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailQuery.swift; sourceTree = "<group>"; };
+		8B2ED9E22097837B0064FFCE /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		8B33D43C209533210074E0CF /* TaskDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailVC.swift; sourceTree = "<group>"; };
+		8B33D43E209545B70074E0CF /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
+		8B33D44020955CD70074E0CF /* UserSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsVC.swift; sourceTree = "<group>"; };
+		8B33D4422095670C0074E0CF /* ItemListDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListDetailVC.swift; sourceTree = "<group>"; };
+		AFCF4E4E48391301A17ECC43 /* Pods-MeWard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeWard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeWard/Pods-MeWard.debug.xcconfig"; sourceTree = "<group>"; };
+		C10329269257B91C57113E16 /* Pods-MeWard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeWard.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeWard/Pods-MeWard.release.xcconfig"; sourceTree = "<group>"; };
+		EC03FA7F2050DE22A606492E /* Pods_MeWard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeWard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E3994AF687466F3E4B1D90 /* Pods_MeWard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				8B1AAF4C20943962004AEC49 /* MeWard */,
 				8B1AAF4B20943962004AEC49 /* Products */,
+				A7EF063AA07F3FA2E6110083 /* Pods */,
+				99F505E7149B8218F0AE5BE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +82,40 @@
 			isa = PBXGroup;
 			children = (
 				8B1AAF4D20943962004AEC49 /* AppDelegate.swift */,
-				8B1AAF4F20943962004AEC49 /* ViewController.swift */,
+				8B2ED9DE209781180064FFCE /* ItemDetailQuery.swift */,
+				8B2ED9E22097837B0064FFCE /* ItemDetail.swift */,
+				8B1AAF6120950AFA004AEC49 /* TaskListVC.swift */,
+				8B33D43C209533210074E0CF /* TaskDetailVC.swift */,
+				8B33D43E209545B70074E0CF /* ItemListVC.swift */,
+				8B33D4422095670C0074E0CF /* ItemListDetailVC.swift */,
+				8B33D44020955CD70074E0CF /* UserSettingsVC.swift */,
+				8B2ED9D0209697980064FFCE /* WishlistItemCell.swift */,
+				8B1AAF5F20950805004AEC49 /* RoundButton.swift */,
+				8B2ED9DC209756390064FFCE /* Constants.swift */,
 				8B1AAF5120943962004AEC49 /* Main.storyboard */,
 				8B1AAF5420943965004AEC49 /* Assets.xcassets */,
 				8B1AAF5620943965004AEC49 /* LaunchScreen.storyboard */,
 				8B1AAF5920943965004AEC49 /* Info.plist */,
+				8B2ED9DA2096D14A0064FFCE /* GoogleService-Info.plist */,
 			);
 			path = MeWard;
+			sourceTree = "<group>";
+		};
+		99F505E7149B8218F0AE5BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC03FA7F2050DE22A606492E /* Pods_MeWard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7EF063AA07F3FA2E6110083 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFCF4E4E48391301A17ECC43 /* Pods-MeWard.debug.xcconfig */,
+				C10329269257B91C57113E16 /* Pods-MeWard.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1AAF5C20943965004AEC49 /* Build configuration list for PBXNativeTarget "MeWard" */;
 			buildPhases = (
+				D37DB05418E820D527469F2D /* [CP] Check Pods Manifest.lock */,
 				8B1AAF4620943962004AEC49 /* Sources */,
 				8B1AAF4720943962004AEC49 /* Frameworks */,
 				8B1AAF4820943962004AEC49 /* Resources */,
+				472A47688025077BA03E0A5C /* [CP] Embed Pods Frameworks */,
+				73B6E0C37FEAE88D94A74BFA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1AAF5820943965004AEC49 /* LaunchScreen.storyboard in Resources */,
+				8B2ED9DB2096D14A0064FFCE /* GoogleService-Info.plist in Resources */,
 				8B1AAF5520943965004AEC49 /* Assets.xcassets in Resources */,
 				8B1AAF5320943962004AEC49 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +188,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		472A47688025077BA03E0A5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeWard/Pods-MeWard-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeWard/Pods-MeWard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B6E0C37FEAE88D94A74BFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeWard/Pods-MeWard-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeWard/Pods-MeWard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37DB05418E820D527469F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeWard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B1AAF4620943962004AEC49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1AAF5020943962004AEC49 /* ViewController.swift in Sources */,
+				8B33D44120955CD70074E0CF /* UserSettingsVC.swift in Sources */,
+				8B2ED9E32097837B0064FFCE /* ItemDetail.swift in Sources */,
+				8B33D43D209533210074E0CF /* TaskDetailVC.swift in Sources */,
+				8B33D43F209545B70074E0CF /* ItemListVC.swift in Sources */,
+				8B2ED9DF209781180064FFCE /* ItemDetailQuery.swift in Sources */,
+				8B1AAF6020950805004AEC49 /* RoundButton.swift in Sources */,
+				8B2ED9DD209756390064FFCE /* Constants.swift in Sources */,
+				8B33D4432095670D0074E0CF /* ItemListDetailVC.swift in Sources */,
 				8B1AAF4E20943962004AEC49 /* AppDelegate.swift in Sources */,
+				8B1AAF6220950AFA004AEC49 /* TaskListVC.swift in Sources */,
+				8B2ED9D1209697980064FFCE /* WishlistItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,15 +458,13 @@
 		};
 		8B1AAF5D20943965004AEC49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCF4E4E48391301A17ECC43 /* Pods-MeWard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99NX57K6N6;
 				INFOPLIST_FILE = MeWard/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nguyen.MeWard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -296,15 +474,13 @@
 		};
 		8B1AAF5E20943965004AEC49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10329269257B91C57113E16 /* Pods-MeWard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99NX57K6N6;
 				INFOPLIST_FILE = MeWard/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nguyen.MeWard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
